@@ -42,6 +42,7 @@ Welcome to balancr's documentation!
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Technical documentation
+   :caption: Guidelines
 
-   technical_documentation/readthedocs.rst
+   guidelines/readthedocs.rst
+   guidelines/git_branching.rst
