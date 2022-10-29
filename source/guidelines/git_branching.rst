@@ -31,7 +31,7 @@ Below is an overview of the workflow:
 - `git push -u origin <branch>`
 
 6. Open a pull request on GitHub to merge the remote branch into `master`
-7. Discuss your changes with the reviewer(s); After merging, the remote branch is automatically deleted
+7. Discuss your changes with the reviewer(s); Note that “Create a Merge Commit” is turned off to keep well-managed Git histories; Only “Rebase & Merge” and “Squash & Merge” are allowed; After merging, the remote branch is automatically deleted
 8. In your local Git repository, switch to `master` and delete the local branch
 
 - `git checkout <branch>` 
@@ -40,3 +40,4 @@ Below is an overview of the workflow:
 9. Update the local `master` branch
 
 - `git pull`
+
