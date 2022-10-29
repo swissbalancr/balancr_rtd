@@ -38,3 +38,10 @@ Welcome to balancr's documentation!
 
    roadmap/overview.rst
    roadmap/prototype.rst
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Technical documentation
+
+   technical_documentation/readthedocs.rst
