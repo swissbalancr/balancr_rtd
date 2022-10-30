@@ -9,35 +9,36 @@ Developers are encouraged to follow the "pull request" workflow described below.
 
 Below is an overview of the workflow:
 
-1. Check that your local Git repository displays a single local branch `master`
+1. Check that your local Git repository displays a single local branch `master` and a single remote-tracking branch `origin/master`
 
 - `git branch --all`
 
-2. Create a local branch; Assume that this branch will have a short life time
+2. Update the local `master` branch from the remote repository
 
-- `git branch <branch>` 
+- `git pull origin master`
 
-3. Switch to that branch
+3. Create a local branch; Assume that it has a "short" life time
 
-- `git checkout <branch>`
+- `git branch <branch_name>` 
 
-4. Commit the changes
+4. Switch to that short-lived branch
 
-- `git add .`
+- `git checkout <branch_name>`
+
+5. Commit the changes
+
+- `git add <file_name>`
 - `git commit -m <message>`
 
-5. Push your commit(s) to the corresponding remote branch_name
+6. Push your commit(s) to the corresponding remote branch
 
-- `git push -u origin <branch>`
+- `git push -u origin <branch_name>`
 
-6. Open a pull request on GitHub to merge the remote branch into `master`
-7. Discuss your changes with the reviewer(s); Note that “Create a Merge Commit” is turned off to keep well-managed Git histories; Only “Rebase & Merge” and “Squash & Merge” are allowed; After merging, the remote branch is automatically deleted
-8. In your local Git repository, switch to `master` and delete the local branch
+7. Open a pull request on GitHub to merge the remote branch into `master`
+8. Discuss your changes with the reviewer(s); Note that “Create a Merge Commit” is turned off to keep a "linear" Git history; Only “Rebase & Merge” and “Squash & Merge” are allowed; After merging, the remote branch is automatically deleted
+9. Remove the short-lived local branch & the corresponding remote-tracking branch, and update the local `master` branch
 
-- `git checkout <branch>` 
-- `git branch --delete <branch>`
-
-9. Update the local `master` branch
-
-- `git pull`
-
+- `git checkout master`
+- `git branch --delete <branch_name>`
+- `git remote prune origin`
+- `git pull origin master`
