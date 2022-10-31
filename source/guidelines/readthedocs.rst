@@ -17,6 +17,13 @@ Creating a new version should be done as soon as possible and may involve:
     - adding a missing piece of information in an existing section
     - creating a new section.
 
+URLs
+====
+
+- GitHub repo: `https://github.com/swissbalancr/balancr_rtd/`
+- CI/CD management: `https://readthedocs.org/projects/balancr-rtd/`
+- Website: `https://balancr-rtd.readthedocs.io/en/latest/`
+
 Ubuntu 20.04
 ============
 
