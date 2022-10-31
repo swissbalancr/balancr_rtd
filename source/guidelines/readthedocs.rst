@@ -22,7 +22,7 @@ Ubuntu 20.04
 
 To contribute to the technical documentation, do as follows:
 
-1. Clone the repository to your computer and change to the working directory
+1. Clone the repository `https://github.com/swissbalancr/balancr_rtd/` to your computer and change to the working directory
 
     - `git clone git@github.com:swissbalancr/balancr_rtd.git`
 
@@ -44,3 +44,11 @@ To contribute to the technical documentation, do as follows:
 
 6. Open a web browser and go to the URL `http://127.0.0.1:8000/`
 7. Make changes to the source code following the Git branching strategy described in :ref:`Pull request workflow`; Each time you save a file in the project, the `build` folder is automatically updated
+
+CI/CD
+=====
+
+Each time a pull request on GitHub is accepted and a branch is merged into `master`, 
+
+- an automatic build takes place (CI); See its progress on this web page `https://readthedocs.org/projects/balancr-rtd/`
+- an automatic deployment of the web application takes place after a successful build (CD); Go to this URL `https://balancr-rtd.readthedocs.io/en/latest/`
