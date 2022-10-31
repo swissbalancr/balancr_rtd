@@ -2,7 +2,7 @@
 Read the Docs
 =============
 
-Every team member is encouraged to contribute to the "Read the Docs" technical documentation whose Git repository on GitHub is called `balancr_rtd <https://github.com/swissbalancr/balancr_rtd>`_. 
+Every team member is encouraged to contribute to the "Read the Docs" technical documentation. The source code is hosted on GitHub in the repository called `balancr_rtd <https://github.com/swissbalancr/balancr_rtd>`_. 
 
 Creating a new version should be done as soon as possible and may involve:
 
@@ -16,4 +16,31 @@ Creating a new version should be done as soon as possible and may involve:
 
     - adding a missing piece of information in an existing section
     - creating a new section.
-    
+
+Ubuntu 20.04
+============
+
+To contribute to the technical documentation, do as follows:
+
+1. Clone the repository to your computer and change to the working directory
+
+    - `git clone git@github.com:swissbalancr/balancr_rtd.git`
+
+2. Create a virtual environment & activate it
+
+    - `virtualenv -p /usr/bin/python3 balancr_rtd`
+    - `source ~/.virtualenvs/balancr_rtd/bin/activate`
+
+3. Install Python packages
+
+    - `pip install sphinx`
+    - `pip install sphinx_rtd_theme`
+    - `pip install sphinx-autobuild`
+
+4. Open the source code in VS code & add the extension called "reStructuredText Syntax highlighting" to provide syntax highlighting for reStructuredText
+5. Build HTML pages in the build directory & start a web server that listens on the IP address 127.0.0.1 and port 8000
+
+    - `sphinx-autobuild -b html source/ build/`
+
+6. Open a web browser and go to the URL `http://127.0.0.1:8000/`
+7. Make changes to the source code following the Git branching strategy described in :ref:`Pull request workflow`; Each time you save a file in the project, the `build` folder is automatically updated
