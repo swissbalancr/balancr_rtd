@@ -24,3 +24,16 @@ extensions = ['sphinx.ext.autosectionlabel']
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+
+#-- Define a global variable rst_prolog ------
+# https://stackoverflow.com/questions/10870719/inline-code-highlighting-in-restructuredtext
+
+rst_prolog = """
+.. role:: python(code)
+    :language: python
+    :class: highlight
+.. role:: bash(code)
+    :language: bash
+    :class: highlight
+"""
+
