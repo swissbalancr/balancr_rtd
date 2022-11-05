@@ -1,6 +1,6 @@
-=============
-Read the Docs
-=============
+=============================
+Contribution to Read the Docs
+=============================
 
 Every team member is encouraged to contribute to the "Read the Docs" technical documentation. The source code is hosted on GitHub in the repository called `balancr_rtd <https://github.com/swissbalancr/balancr_rtd>`_. 
 
@@ -11,18 +11,10 @@ Creating a new version should be done as soon as possible and may involve:
     - updating a value
     - fixing a mistake
     
-
 - extending the documentation
 
     - adding a missing piece of information in an existing section
     - creating a new section.
-
-URLs
-====
-
-- GitHub repo: `https://github.com/swissbalancr/balancr_rtd/`
-- CI/CD management: `https://readthedocs.org/projects/balancr-rtd/`
-- Website: `https://balancr-rtd.readthedocs.io/en/latest/`
 
 Ubuntu 20.04
 ============

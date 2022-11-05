@@ -46,3 +46,10 @@ Welcome to balancr's documentation!
 
    guidelines/readthedocs.rst
    guidelines/git_branching.rst
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Cheatsheets
+
+   cheatsheets/cheatsheet.rst
