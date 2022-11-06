@@ -1,6 +1,6 @@
-===========================
-Contribution to balancr_rtd
-===========================
+=======================
+Technical documentation
+=======================
 
 Every team member is encouraged to contribute to the Read the Docs technical documentation. The source code is hosted on GitHub in the repository called balancr_rtd. 
 

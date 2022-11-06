@@ -9,27 +9,27 @@ Welcome to balancr's documentation!
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Getting started
+   :caption: Overview
 
-   getting_started/system_requirements.rst
-   getting_started/architecture.rst
-   getting_started/user_interfaces.rst
-   getting_started/source_code.rst
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Setting up a dev. env.
-
-   setting_up_dev_env/windows_os.rst
-   setting_up_dev_env/mac_os.rst
+   overview/architecture.rst
+   overview/user_interfaces.rst
+   overview/source_code.rst
 
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Deployment
+   :caption: Installation & execution
 
-   deployment/local.rst
+   installation_execution/windows_os.rst
+   installation_execution/mac_os.rst
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Development
+
+   development/windows_os.rst
+   development/mac_os.rst
 
 .. toctree::
    :maxdepth: 2
@@ -44,7 +44,7 @@ Welcome to balancr's documentation!
    :hidden:
    :caption: Guidelines
 
-   guidelines/readthedocs.rst
+   guidelines/technical_documentation.rst
    guidelines/git_branching.rst
 
 .. toctree::
