@@ -8,7 +8,7 @@ Windows
 
 Recommended hardware requirements for Windows:
 
-- 16Gb of memory RAM - to run multiple docker containers
+- 16 GB of memory (RAM) to run multiple docker containers
 
 Software requirements for Windows:
 
